@@ -4,10 +4,10 @@ const Web3 = require('web3');
 const { abi, evm } = require('./compile');
  
 provider = new HDWalletProvider(
-    'kiss divorce jeans voyage undo sword skill shoot object damp exhibit uncover',
-    'https://rinkeby.infura.io/v3/fc219e664c514ce5ac3db0598b3d8949'
+    'YOUR_MNEMONIC',
+    'YOUR_MNEMONIC'
 );
- 
+
 const web3 = new Web3(provider);
  
 const deploy = async () => {
